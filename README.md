@@ -43,7 +43,7 @@ streamlit run app.py
 
 ---
 
-## Espanol
+## Español
 
 ### Project Name
 Conversacion con Don Francisco de Arobe
