@@ -9,6 +9,7 @@ Conversacion con Don Francisco de Arobe
 This project is a Streamlit application that lets users chat with an AI persona of Don Francisco de Arobe, a historical figure from the 16th century.  
 It uses Retrieval-Augmented Generation (RAG) over a PDF knowledge base to answer questions in Spanish with concise, in-character responses.  
 The app also supports voice input (speech-to-text) and optional voice output (text-to-speech) with local models.
+You can find the detailed explanation in the document "Final report.pdf".
 
 ### Key Features
 - Conversational RAG over PDF documents with persistent vector storage (Chroma or FAISS).
@@ -52,6 +53,7 @@ Conversacion con Don Francisco de Arobe
 Este proyecto es una aplicacion Streamlit que permite conversar con una IA que representa a Don Francisco de Arobe, personaje historico del siglo XVI.  
 Utiliza Retrieval-Augmented Generation (RAG) sobre una base documental en PDF para responder en espanol de forma breve y en primera persona.  
 La aplicacion tambien admite entrada por voz (speech-to-text) y salida por voz opcional (text-to-speech) con modelos locales.
+Puedes encontrar la explicación detallada en el documento "Memoria.pdf".
 
 ### Características principales
 - RAG conversacional sobre documentos PDF con almacenamiento vectorial persistente (Chroma o FAISS).
