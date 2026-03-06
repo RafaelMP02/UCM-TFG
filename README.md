@@ -45,15 +45,15 @@ streamlit run app.py
 
 ## Español
 
-### Project Name
+### Nombre de proyecto
 Conversacion con Don Francisco de Arobe
 
-### Description
+### Descripción
 Este proyecto es una aplicacion Streamlit que permite conversar con una IA que representa a Don Francisco de Arobe, personaje historico del siglo XVI.  
 Utiliza Retrieval-Augmented Generation (RAG) sobre una base documental en PDF para responder en espanol de forma breve y en primera persona.  
 La aplicacion tambien admite entrada por voz (speech-to-text) y salida por voz opcional (text-to-speech) con modelos locales.
 
-### Key Features
+### Características principales
 - RAG conversacional sobre documentos PDF con almacenamiento vectorial persistente (Chroma o FAISS).
 - Contextualizacion de preguntas con historial de chat y reranking con BGE/TART para mejorar recuperacion.
 - Inferencia local de LLM mediante `llama-cpp` (por defecto) con parametros configurables.
@@ -68,7 +68,7 @@ La aplicacion tambien admite entrada por voz (speech-to-text) y salida por voz o
 - `faster-whisper`, `TTS` (XTTS-v2), `sounddevice`, `pygame`
 - Entorno Conda (`environment.yaml`)
 
-### Quick Start
+### Instalación y ejecución
 1. Crear y activar el entorno:
 ```bash
 conda env create -f environment.yaml
